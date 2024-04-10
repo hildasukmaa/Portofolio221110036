@@ -1,0 +1,175 @@
+body {
+  background-color: rgb(140, 255, 255);
+  background-image: url(./assets/image/4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  }
+
+  .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  }
+
+  .container {
+  display: flex;
+  justify-content: flex-end;
+  }
+
+  .navbar-nav {
+  margin-left: auto;
+  }
+
+  body,
+  html {
+    height: 100%;
+margin: 0;
+}
+
+.welcome {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+h1,
+h2 {
+font-family: "Comic Sans MS", cursive;
+text-align: center;
+}
+
+img {
+width: 300px;
+display: block;
+margin: auto;
+}
+
+p {
+  text-align: center;
+   padding-top: 30px;
+   font-size: 20px;
+
+}
+
+.about-me {
+margin-top: 20px;
+}
+
+.container-edu>div {
+  display: inline-block;
+  border: 50px rgb(24, 62, 105);
+  padding: 5opx ;
+  margin: 10px ;
+  background: linear-gradient(to right, hsl(211, 80%, 67%), #6291db);
+  box-shadow: 0 4px 8px 0 rgba(39, 20, 161, 0.2);
+  border-radius: 20px
+  }
+  
+  .container-edu {
+  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+align-items: flex-start;
+margin-top: 50px;
+margin-left: 150px;
+margin-right: 150px;
+  
+}
+#pendidikan {
+float: left;
+width: 45%;
+}
+
+#keahlian {
+float: right;
+width: 40%;
+}
+.clearfix::after {
+
+content: "";
+clear: both;
+display: table;
+justify-content: center;
+}
+
+.education {
+
+  padding-top: 60px;
+  
+  }
+  
+  .about-me,
+  
+  .education {
+  
+  margin-bottom: 50px;
+  
+  }
+  
+  .container-about {
+  display: inline-block;
+  border: 1px solid #759aea;
+  padding: 20px;
+  margin: 10px;
+  background: linear-gradient-gradient(to right, #7572f9, #7d67fd); 
+  box-shadow: 0 4px 8px 0 blue (0, 0, 0, 0.2);
+  border-radius: 70px;
+  top: 50%;
+  }
+
+  .about-me p {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    }
+    
+    #about {
+    padding-top: 55px;
+    
+    }
+    
+    .porto { margin-top: 50px; }
+    .porto h2 {
+    color: #333;
+    margin-bottom: 30px;
+    padding-top: 60px;
+    }
+    
+    .porto img {
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); float: left;
+    margin-right: 65px;
+    margin-left: 65px;
+    }
+
+    porto iframe {
+      clear: both;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    }
+
+  {
+margin: 0
+padding: 0
+box-sizing: border-box
+  }
+
+footer {
+background-color: #558eda;
+color: #240851;
+padding: 0px 0;
+}
